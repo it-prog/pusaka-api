@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "module": "commonjs",
+    "target": "es6"
+  },
+  "exclude": [
+    "**/node_modules/*",
+    ".git",
+    ".npm",
+    ".yarn",
+    "**/.cache/*",
+    "**/.tmp/*"
+  ]
+}

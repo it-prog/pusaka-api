@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_section_subtexts",
+  "info": {
+    "displayName": "subtext"
+  },
+  "options": {},
+  "attributes": {
+    "copyright": {
+      "type": "text"
+    }
+  }
+}

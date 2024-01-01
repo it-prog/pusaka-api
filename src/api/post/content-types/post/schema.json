@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "singularName": "post",
+    "pluralName": "posts",
+    "displayName": "AMP & LANDING PAGE",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "DomainName": {
+      "type": "string"
+    },
+    "DomainStatus": {
+      "type": "enumeration",
+      "enum": [
+        "Ex Domain ( Nawala Amp Active )",
+        "New Domain ( Amp Active )",
+        "New Domain ( Non Amp )"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "MetaData": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.meta-data"
+    },
+    "Blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.bodyarticle",
+        "blocks.button",
+        "blocks.footer",
+        "blocks.header"
+      ]
+    }
+  }
+}

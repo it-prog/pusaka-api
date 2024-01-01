@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "buttonlinks",
+  "info": {
+    "singularName": "buttonlink",
+    "pluralName": "buttonlinks",
+    "displayName": "BUTTON LINK",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.button"
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.footer"
+    },
+    "amp_landing_pages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::post.post"
+    }
+  }
+}

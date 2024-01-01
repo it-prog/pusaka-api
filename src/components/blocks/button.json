@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_buttons",
+  "info": {
+    "displayName": "Button"
+  },
+  "options": {},
+  "attributes": {
+    "button": {
+      "displayName": "button",
+      "type": "component",
+      "repeatable": false,
+      "component": "section.button"
+    }
+  }
+}

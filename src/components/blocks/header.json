@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_blocks_headers",
+  "info": {
+    "displayName": "Header"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.logo"
+    },
+    "runningtext": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.runtext"
+    },
+    "slide": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.slide"
+    }
+  }
+}

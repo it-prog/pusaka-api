@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_section_slides",
+  "info": {
+    "displayName": "slide"
+  },
+  "options": {},
+  "attributes": {
+    "slideImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

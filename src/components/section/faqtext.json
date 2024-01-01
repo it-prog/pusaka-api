@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_section_faqtexts",
+  "info": {
+    "displayName": "faqtext"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "headline": {
+      "type": "text"
+    },
+    "faqcontext": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.faq"
+    }
+  }
+}

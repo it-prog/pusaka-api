@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_footers",
+  "info": {
+    "displayName": "Footer"
+  },
+  "options": {},
+  "attributes": {
+    "footer": {
+      "displayName": "footer",
+      "type": "component",
+      "repeatable": false,
+      "component": "section.footer"
+    }
+  }
+}

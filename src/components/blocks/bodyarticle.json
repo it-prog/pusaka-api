@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_blocks_bodyarticles",
+  "info": {
+    "displayName": "Bodyarticle"
+  },
+  "options": {},
+  "attributes": {
+    "bodycontent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.richtext"
+    },
+    "faqcontent": {
+      "displayName": "faqtext",
+      "type": "component",
+      "repeatable": false,
+      "component": "section.faqtext"
+    },
+    "footercontent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.subtext"
+    }
+  }
+}
